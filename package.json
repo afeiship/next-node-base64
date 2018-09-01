@@ -1,0 +1,13 @@
+{
+  "name": "node-base64",
+  "version": "0.0.1",
+  "description": "Base64 for nodejs.",
+  "main": "index.js",
+  "repository": "git@github.com:afeiship/node-base64.git",
+  "author": "feizheng <1290657123@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d dist",
+    "dev": "babel src -d dist -x .js -w"
+  }
+}
