@@ -3,11 +3,11 @@ var ASCII = 'ascii';
 
 
 function encode(inString){
-    return new Buffer(inString).toString(BASE_64)
+    return Buffer.from(inString).toString(BASE_64)
 }
 
 function decode(inString){
-    new Buffer(inString, BASE_64).toString(ASCII);
+    return Buffer.from(inString, BASE_64).toString(ASCII);
 }
 
 module.exports = {

@@ -11,5 +11,11 @@ npm install -S afeiship/node-base64 --registry=https://registry.npm.taobao.org
 
 ## usage:
 ```js
-//DOCS here!
+var base64 = require('./index');
+var encoded = base64.encode('afei');
+var decoded = base64.decode(encoded);
+
+console.log(encoded, decoded);
+// YWZlaQ== 
+// afei
 ```
