@@ -3,7 +3,7 @@
  * description: Base64 for nodejs.
  * homepage: https://github.com/afeiship/next-node-base64
  * version: 1.0.0
- * date: 2020-11-22 20:12:15
+ * date: 2020-11-22 20:13:02
  * license: MIT
  */
 
